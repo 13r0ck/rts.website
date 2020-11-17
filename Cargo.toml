@@ -1,0 +1,22 @@
+[package]
+name = "rts_website"
+version = "0.1.0"
+authors = ["brock"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+yew = "0.17.3"
+wasm-bindgen = "0.2.68"
+js-sys = "0.3.45"
+anyhow = "1.0.34"
+serde = { version = "1.0.117", features = ["derive"]}
+serde_derive = "1"
+easy-hasher = "2.2.1"
+rand = "0.7.3"
+rand_seeder = "0.2.1"
+rand_pcg = "0.2.1"
