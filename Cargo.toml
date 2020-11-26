@@ -1,5 +1,5 @@
 [package]
-name = "rts_website"
+name = "rts_passwdgen"
 version = "0.1.0"
 authors = ["brock"]
 edition = "2018"
